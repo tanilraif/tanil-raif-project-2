@@ -27,7 +27,7 @@ body {
   margin: 0;
 }
 main {
-  display: block;
+  display: grid;
   grid-template-columns(auto-fit, minma(200px, 1fr));
 }
 img{
