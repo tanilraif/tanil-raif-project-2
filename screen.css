@@ -30,3 +30,8 @@ main {
   display: block;
   grid-template-columns(auto-fit, minma(200px, 1fr));
 }
+img{
+  display: block;
+  box-shadow: -1px 0pc 0pc rgba(0, 0, 0, 0.06);
+  width: 100%
+}
