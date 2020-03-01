@@ -18,3 +18,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   - super-simple properties and old-school
     syntax
 */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #F0F0F0;
+  margin: 0;
+}
