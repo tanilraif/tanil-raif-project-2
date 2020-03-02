@@ -21,10 +21,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-size: 1.125em; /* 18px / 16px = 1.125em */
-  line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222  */
-  padding: 1.2222222222em 1.8333333333em; /* 33 / 18 */
+  font-family: "Raleway";
+  font-size: 2em;
+  line-height: 1.2222222222em;
+
+}
+
+p { font-size: 25px;
+line-height: 30px;
+font-family: Raleway
+
+text-align: justify;
+hyphens: auto;
+color: grey;
+padding-right: 5em;
+padding-left: 5em;
+padding-bottom: 5em;
+padding-top: 5em;
+
 }
 
 *{
@@ -35,10 +49,10 @@ body {
   margin: 0;
 }
 main {
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
