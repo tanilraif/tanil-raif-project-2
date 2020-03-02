@@ -22,9 +22,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: "Raleway";
-  font-size: 2em;
+  font-size: 1em;
   line-height: 1.2222222222em;
+}
 
+h1 {font-size: 35px;
+line-height: 30px;
+font-family: Raleway
+
+text-align: justify;
+color: grey;
+padding-right: 2em;
+padding-left: 1.5em;
+padding-top: 2em;
 }
 
 p { font-size: 25px;
@@ -34,12 +44,14 @@ font-family: Raleway
 text-align: justify;
 hyphens: auto;
 color: grey;
-padding-right: 5em;
-padding-left: 5em;
-padding-bottom: 5em;
-padding-top: 5em;
+padding-right: 2em;
+padding-left: 2em;
+padding-top: 2em;
+padding-bottom: 2em;
+max-width: 1000px
 
 }
+
 
 *{
   box-sizing: border-box;
@@ -49,19 +61,17 @@ body {
   margin: 0;
 }
 main {
-  padding-left: 5em;
-  padding-right: 5em;
-  padding-top: 5em;
-  padding-bottom: 5em;
+
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
-
+grid-template-columns: repeat(auto-fill, minmax(200px, 500px))
 }
+
 img{
   display: block;
-  box-shadow: -1px 0pc 0pc rgba(0, 0, 0, 0.06);
   width: 100%
 }
-
-.
