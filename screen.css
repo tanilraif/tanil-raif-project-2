@@ -27,7 +27,7 @@ html {
   padding: 1.2222222222em 1.8333333333em; /* 33 / 18 */
 }
 
-* {
+*{
   box-sizing: border-box;
 }
 body {
@@ -35,8 +35,9 @@ body {
   margin: 0;
 }
 main {
-  display: grid;
-  grid-template-columns(auto-fit, minma(200px, 1fr));
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+
 }
 img{
   display: block;
