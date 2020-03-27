@@ -28,7 +28,7 @@ html {
 
 h1 {font-size: 35px;
 line-height: 30px;
-font-family: Raleway
+font-family: "Raleway";
 
 text-align: justify;
 color: grey;
@@ -39,7 +39,7 @@ padding-top: 2em;
 
 p { font-size: 25px;
 line-height: 30px;
-font-family: Raleway
+font-family: "Raleway";
 
 text-align: justify;
 hyphens: auto;
@@ -48,7 +48,7 @@ padding-right: 2em;
 padding-left: 2em;
 padding-top: 2em;
 padding-bottom: 2em;
-max-width: 1000px
+max-width: 1000px;
 
 }
 
@@ -73,5 +73,5 @@ grid-template-columns: repeat(auto-fill, minmax(200px, 500px))
 
 img{
   display: block;
-  max width: 100%
+  max-width: 100%;
 }
