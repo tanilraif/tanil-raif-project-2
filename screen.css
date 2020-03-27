@@ -67,6 +67,8 @@ main {
   padding-top: 2em;
   padding-bottom: 2em;
 
+/*grid template for images*/
+
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
 }
