@@ -68,6 +68,7 @@ main {
   padding-top: 2em;
   padding-bottom: 2em;
 
+
 /*grid template for images*/
 
 display: grid;
@@ -79,9 +80,7 @@ img{
   max-width: 100%;
 }
 
-.label {
-color: red;
-}
+
 
 
 .contact { font-size: 25px;
@@ -96,5 +95,17 @@ padding-left: 2em;
 padding-top: 2em;
 padding-bottom: 2em;
 max-width: 1000px;
+
+}
+
+.label { font-size: 10px;
+line-height: 20px;
+font-family: "Raleway";
+padding: 0.5em;
+text-align: justify;
+hyphens: auto;
+color: grey;
+
+
 
 }
