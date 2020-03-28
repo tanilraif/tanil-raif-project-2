@@ -30,12 +30,11 @@ h1 {font-size: 35px;
 line-height: 30px;
 font-family: "Raleway";
 
-text-align: justify;
+text-align: center;
 color: grey;
 padding-right: 2em;
 padding-left: 1.5em;
 padding-top: 2em;
-
 
 }
 
@@ -43,13 +42,12 @@ p { font-size: 25px;
 line-height: 30px;
 font-family: "Raleway";
 
-text-align: justify;
+text-align: center;
 hyphens: auto;
 color: grey;
 padding-right: 2em;
 padding-left: 2em;
 padding-bottom: 2em;
-max-width: 1000px;
 
 }
 
@@ -81,31 +79,28 @@ img{
 }
 
 
-
+/* Footer*/
 
 .contact { font-size: 25px;
 line-height: 30px;
 font-family: "Raleway";
 
-text-align: justify;
+text-align: center;
 hyphens: auto;
 color: grey;
 padding-right: 2em;
 padding-left: 2em;
 padding-top: 2em;
 padding-bottom: 2em;
-max-width: 1000px;
-
 }
+
+
+/*figcaption*/
 
 .label { font-size: 10px;
 line-height: 20px;
 font-family: "Raleway";
 padding: 0.5em;
-text-align: justify;
-hyphens: auto;
+text-align: center;
 color: grey;
-
-
-
 }
