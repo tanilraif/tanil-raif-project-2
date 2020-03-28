@@ -26,6 +26,14 @@ html {
   line-height: 1.2222222222em;
 }
 
+.imagezero{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
 h1 {font-size: 35px;
 line-height: 30px;
 font-family: "Raleway";
@@ -67,10 +75,8 @@ main {
   padding-bottom: 2em;
 
 
-/*grid template for images*/
-
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
 }
 
 img{
