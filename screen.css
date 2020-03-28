@@ -35,6 +35,8 @@ color: grey;
 padding-right: 2em;
 padding-left: 1.5em;
 padding-top: 2em;
+
+
 }
 
 p { font-size: 25px;
@@ -46,7 +48,6 @@ hyphens: auto;
 color: grey;
 padding-right: 2em;
 padding-left: 2em;
-padding-top: 2em;
 padding-bottom: 2em;
 max-width: 1000px;
 
@@ -76,4 +77,24 @@ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
 img{
   display: block;
   max-width: 100%;
+}
+
+.label {
+color: red;
+}
+
+
+.contact { font-size: 25px;
+line-height: 30px;
+font-family: "Raleway";
+
+text-align: justify;
+hyphens: auto;
+color: grey;
+padding-right: 2em;
+padding-left: 2em;
+padding-top: 2em;
+padding-bottom: 2em;
+max-width: 1000px;
+
 }
